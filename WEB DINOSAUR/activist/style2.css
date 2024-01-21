@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  height: max-content;
+  padding: 10px 90px 10px 30px;
+  align-items: center;
+}
+
+nav a {
+  color: rgb(87, 67, 42);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+nav img {
+  width: 7rem;
+  margin: 0 1rem 0 1rem;
+}
+
+section {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.isi {
+  display: flex;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  margin: 0.7rem 0 0 0;
+  padding: 2rem;
+  border: 5px solid rgb(44, 71, 18);
+}
+
+section .text {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin: 0 5rem 0 5rem;
+  margin-top: 1rem;
+}
+
+section .text h1 {
+  margin-bottom: 1rem;
+  font-weight: 900;
+  font-size: 4rem;
+  height: max-content;
+}
+
+section .text p {
+  font-size: 1.3rem;
+  height: max-content;
+  font-weight: 600;
+  width: 38rem;
+  color: rgb(51, 66, 66);
+  background-color: aliceblue;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+section .img img {
+  width: 15rem;
+  align-items: end;
+  display: flex;
+}
+
+footer {
+  width: 100%;
+  height: max-content;
+  background-color: rgb(3, 114, 114);
+  color: rgb(252, 245, 186);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+  padding: 1rem 0 1rem 0;
+  bottom: 0;
+}

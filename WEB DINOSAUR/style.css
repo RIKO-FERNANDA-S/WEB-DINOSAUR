@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* START
+ CSS INDEX.HTML */
+
+nav {
+  display: flex;
+  justify-content: center;
+  height: max-content;
+  padding: 10px 90px 10px 30px;
+  align-items: center;
+}
+
+nav a {
+  color: rgb(87, 67, 42);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+nav img {
+  width: 7rem;
+  margin: 0 1rem 0 1rem;
+}
+
+section {
+  display: flex;
+  height: 70vh;
+}
+
+section .text {
+  align-items: start;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  width: 29rem;
+  margin-left: 7rem;
+  margin-top: 1.7rem;
+}
+
+section .text .judul {
+  font-size: 5rem;
+  font-weight: 700;
+  color: rgb(121, 105, 38);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+section .text .isi {
+  font-weight: 500;
+  color: rgb(24, 107, 107);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 1rem 0 1rem 1rem;
+}
+
+section .text a {
+  text-decoration: none;
+  font-weight: 500;
+  color: rgb(128, 104, 74);
+  background-color: rgb(137, 243, 243);
+  padding: 10px 13px 10px 13px;
+  border-radius: 5px;
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  margin-left: 1rem;
+}
+
+/* END CSS INDEX.HTML */
+
+/* Footer start */
+footer {
+  width: 100%;
+  height: max-content;
+  background-color: rgb(3, 114, 114);
+  color: rgb(252, 245, 186);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+  padding: 1rem 0 1rem 0;
+  bottom: 0%;
+}
+/* Footer end */
